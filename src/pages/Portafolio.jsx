@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FiGithub, FiLinkedin, FiMail, FiActivity } from 'react-icons/fi';
 import { IoMdSchool } from 'react-icons/io';
 import { SiJavascript } from "react-icons/si";
+import img from '../assets/Gestor.png';
 
 const Portfolio = () => {
   const [activeProject, setActiveProject] = useState(0);
@@ -12,7 +13,7 @@ const Portfolio = () => {
       title: "Sistema de Gestión de Tareas",
       description: "Plataforma en línea para organizar, priorizar y seguir el progreso de tareas y proyectos.",
       tech: ["React", "Node.js", "MySQL", "Tailwind"],
-      image: "src/assets/Gestor.png",
+      image: img,
       href: "https://gestor-task-bay.vercel.app/"
     },
 
